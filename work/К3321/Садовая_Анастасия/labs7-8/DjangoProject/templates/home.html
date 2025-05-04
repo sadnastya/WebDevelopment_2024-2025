@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <header>Мой сайт</header>
+
+    <nav>
+        <a href="/">Главная</a>
+        <a href="/about/">О разработке</a>
+        <a href="/contact/">Обратная связь</a>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+    <footer>© 2025 Все права защищены</footer>
+</body>
+</html>
